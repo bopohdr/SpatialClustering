@@ -14,27 +14,28 @@ If you make use of this software for academic purposes, please cite the article 
 The code implemented here is tested in a Python 3.5.x environment and should work for Python 2.7.x.
 To install the virtual environment, please follow the following steps:
 
-After cloning this repository, ensure that you are in the project's directory. 
-
+    pip3 install virtualenv
+    After cloning this repository, ensure that you are in the project's directory. 
+    
 Create virtual environment for the project
 
     Python 2.7.x: > mkvirtualenv --no-site-packages SpatialClustering_env
-    Python 3.5.x: > pyvenv SpatialClustering_env
+    Python 3.8.x: > virtualenv SpatialClustering_env
 
 Activate virtual environment for installing packages
 
     Python 2.7.x: > workon SpatialClustering_env
-    Python 3.5.x: > source SpatialClustering_env/bin/activate
+    Python 3.8.x: > source SpatialClustering_env/bin/activate
 
 Install required packages for current project
 
     Python 2.7.x: > pip install -r requirements.txt
-    Python 3.5.x: > pip install -r requirements.txt
+    Python 3.8.x: > pip install -r requirements.txt
 
 Exit the virtual environment
 
     Python 2.7.x: > deactivate
-    Python 3.5.x: > deactivate
+    Python 3.8.x: > deactivate
 
 All dependencies should now be installed in the virtual environment.
 
